@@ -1,0 +1,126 @@
+@media (min-width:900px) {
+  h1{
+    width: 75%;
+    display:flex;
+    text-align: left;
+  }
+img{
+  margin: auto;
+}
+.imagen{
+  width: 25%;
+  height: 20%;
+}
+.fila1,.fila2{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.fila1{
+  padding: 50px 0 0 0;
+}
+.fila2{
+  padding: 50px 0 0 0;
+}
+  footer{
+    display:flex;
+  }
+  #contacto, #terminos, #redessociales, #Derechos{
+    margin-left: 5%;
+  }
+  #contenido{
+    margin: auto;
+    width:900px;
+  }
+}
+@media (max-width:900px){
+  .imagen{
+    width: 90%;
+  }
+  #contenido{
+    width: 100%;
+  }
+  .cabecera{
+    text-align: center;
+    display:block;
+    }
+  #contacto, #terminos, #redessociales, #Derechos{
+      margin-left: 15%;
+    }
+}
+header{
+  background: #5b7989;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  animation: animacion 1s;
+
+}
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+    }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+h1{
+  font-size: 50px;
+}
+header a {
+  font-size: 25px;
+  color: white;
+  }
+ #Retratos{
+    text-decoration:none;
+  }
+body{
+  font-family: Dancing Script;
+  background: #02010a;
+}
+#Galeria{
+  text-align: center;
+  background-color: #d5c75f;
+  border: 1px solid #d5c75f;
+  }
+#imagen1{
+  -webkit-filter: blur(10px);
+}
+#imagen2{
+  -webkit-filter: grayscale(100%);
+  }
+#imagen3{
+  -webkit-filter: sepia(90%);
+}
+#imagen4{
+  -webkit-filter: grayscale(100%);
+  }
+#imagen6{
+  -webkit-filter: grayscale(100%);
+  }
+footer{
+  font-size: 20px;
+  text-align: justify;
+  background: #c6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+}
+#contacto, #terminos, #redessociales, #Derechos{
+  font-size: 120%;
+  text-align: left;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.redsocial{
+  height: 20px;
+}
+#contenido{
+  text-align: center;
+}

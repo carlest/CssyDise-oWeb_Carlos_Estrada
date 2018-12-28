@@ -1,0 +1,141 @@
+@media (min-width:900px) {
+  h1{
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+  }
+  .imagensecundaria{
+    text-decoration: underline;
+    display: flex;
+  }
+  footer{
+    display:flex;
+  }
+  #contacto, #terminos, #redessociales, #Derechos{
+    margin-left: 5%;
+  }
+  #contenido{
+  margin: auto;
+  width:900px;
+  }
+}
+@media (max-width:900px){
+  #contenido{
+    width: 100%;
+  }
+  .cabecera{
+    text-align: center;
+    display:block;
+    }
+  .imagensecundaria{
+    text-decoration: underline;
+    }
+    #contacto, #terminos, #redessociales, #Derechos{
+      margin-left: 15%;
+    }
+}
+header{
+  background: #5b7989;
+  color: white;
+  text-shadow: 2px 2px 2px #02010a;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  animation: animacion 1s;
+}
+@-webkit-keyframes animacion{
+  0%{
+    margin-top: 150%;
+    }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+h1{
+  font-size: 50px;
+}
+header a {
+  font-size: 25px;
+  color: white;
+  }
+#Inicio{
+    text-decoration: none;
+  }
+body{
+  font-family: Dancing Script;
+  background: #02010a;
+}
+#imagenes{
+  text-align: center;
+}
+#imagencentral{
+  background-color: #82c3a6;
+  }
+.porcentaje1{
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  width: 90%;
+  margin: 5%;
+}
+.porcentaje2{
+  width: 90%;
+  margin: 5%;
+	border: 1px solid black;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  transition-property: rotate(10deg);
+  transition-property: border 2px solid white;
+  transition-duration: 2s;
+  }
+    @-webkit-keyframes sombra{
+      from {
+        box-shadow: 2px 2px #02010a;
+      }
+      to {
+      box-shadow: 2px 2px #82c3a6;
+      }
+  }
+.porcentaje2:hover {
+  transform: rotate(10deg);
+  border:2px solid white;
+  animation: sombra 2s;
+}
+.porcentaje3{
+  width: 90%;
+  margin: 5%;
+	border: 1px solid black;
+  -webkit-filter: drop-shadow(2px 2px 2px #02010a);
+  transition-property: translate(20px, -5px);
+  transition-property: border 2px solid white;
+  transition-duration: 1s;
+}
+.porcentaje3:hover {
+  transform:translate(20px, -5px);
+  border:2px solid white;
+  animation: sombra 2s;
+}
+#imagensecundaria{
+  text-align: center;
+  background-color: #d5c75f;
+}
+footer{
+  font-size: 20px;
+  text-align: justify;
+  background: #c6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius:10px;
+}
+#contacto, #terminos, #redessociales, #Derechos{
+  font-size: 120%;
+  text-align: left;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+.redsocial{
+  height: 20px;
+}
+#contenido{
+text-align: center;
+}
